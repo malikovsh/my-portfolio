@@ -1,3 +1,3 @@
 Demo
 
-Open https://github.com/malikovsh/my_portfolio to view it in the browser.
+Open https://malikovsh.github.io/my-portfolio to view it in the browser.
