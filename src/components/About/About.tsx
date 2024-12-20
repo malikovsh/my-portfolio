@@ -167,6 +167,7 @@ export function About() {
                                 target="_blank"
                                 href={item.link}
                                 rel="noreferrer"
+                                style={{ color: '#23ce6b' }}
                             >
                                 {item.link}
                             </a>

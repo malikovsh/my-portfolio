@@ -24,7 +24,7 @@ export function Hero() {
                         Software engineer with a focus on web, mobile app, and
                         frontend development. <br /> I have been working with
                         I've been working with Javascript and its ecosystems -
-                        React js, React Native, Redux, Mobix, and TypeScript for
+                        React js, React Native, Redux, MobX, and TypeScript for
                         2+ years.
                     </p>
                 </ScrollAnimation>
