@@ -25,7 +25,7 @@ export function Hero() {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" delay={130}>
                     <p className="small-resume">
-                        {t('describtion')} <br /> {t('aboutMe')}
+                        {t('description')} <br /> {t('aboutMe')}
                     </p>
                 </ScrollAnimation>
 

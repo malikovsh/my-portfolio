@@ -16,7 +16,7 @@ i18n.use(LanguageDetector)
                     contact: 'Contact',
                     hello: 'Hi',
                     seeMore: 'see more',
-                    describtion:
+                    description:
                         'Software engineer with a focus on web, mobile app, and frontend development.',
                     aboutMe:
                         "I have been working with I've been working with Javascript and its ecosystems - React js, React Native, Redux, MobX, and TypeScript for 2+ years.",
@@ -100,7 +100,7 @@ i18n.use(LanguageDetector)
                     contact: 'Aloqa',
                     hello: 'Salom',
                     seeMore: 'batafsil',
-                    describtion:
+                    description:
                         "Web, mobil ilovalar va frontend ishlab chiqishga ixtisoslashgan dasturiy ta'minot muhandisi.",
                     aboutMe:
                         'Men 2+ yildan beri JavaScript va uning ekotizimlari – React JS, React Native, Redux, MobX va TypeScript bilan ishlab kelmoqdaman.',
