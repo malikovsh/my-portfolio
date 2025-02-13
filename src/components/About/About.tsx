@@ -14,7 +14,7 @@ export function About() {
         {
             id: 1,
             img: softwhereLogo,
-            position: `React, React Native ${t('developer')}`,
+            position: `React, React Native Developer`,
             company: 'Softwhere · Full-time',
             duration: 'Dec 2023 - Present',
             location: 'Tashkent, Uzbekistan',
@@ -33,7 +33,7 @@ export function About() {
         {
             id: 2,
             img: empireLogo,
-            position: `React, React Native ${t('developer')}`,
+            position: `React, React Native Developer`,
             company: 'Empire Soft · Full-time',
             duration: 'Sep 2022 - Nov 2023 · 1 yr 3 mos',
             location: 'Toshkent, Uzbekistan',
