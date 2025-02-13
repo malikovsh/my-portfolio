@@ -1,14 +1,14 @@
+import { useTranslation } from 'react-i18next';
 import { Container } from './styles';
 
 export function Contact() {
+    const { t } = useTranslation();
+
     return (
         <Container id="contact">
             <header>
-                <h2>Contact me</h2>
-                <p>
-                    If you have seen my potential or want to talk to me, feel
-                    free to send me a message
-                </p>
+                <h2>{t('contactMe')}</h2>
+                <p>{t('massage')}</p>
             </header>
             <div className="contacts">
                 <a

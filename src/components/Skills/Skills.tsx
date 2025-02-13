@@ -1,11 +1,14 @@
+import { useTranslation } from 'react-i18next';
 import { Container } from './styles';
 
 export function Skills() {
+    const { t } = useTranslation();
+
     return (
         <Container id="skills">
             <div className="about-text">
                 <div>
-                    <h2>Skills</h2>
+                    <h2>{t('skill')}</h2>
                 </div>
                 <div>
                     <div className="skill-shape">
