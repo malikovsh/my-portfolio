@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { Container } from './styles';
 import softwhereLogo from '../../assets/companies/Softwhare.png';
 import empireLogo from '../../assets/companies/Empire.jpg';
+import innovation from '../../assets/companies/innovation.svg';
 
 export function About() {
     const { t } = useTranslation();
@@ -13,11 +14,31 @@ export function About() {
 
     const data = [
         {
+            id: 0,
+            img: innovation,
+            position: `React, NextJs ${t('developer')}`,
+            company:
+                'O‘zbekiston Respublikasi Oliy taʼlim, fan va innovatsiyalar vazirligi · Full-time',
+            duration: 'Fev 2025 - Present',
+            location: 'Tashkent, Uzbekistan',
+            type: `${t('company2.type')}`,
+            task: `${t('company2.description')}`,
+            technologies:
+                ' React Native, Expo,  React js, Javascript, Typescript, React hooks, roots, Redux Tookit, React-query, MUI, Tailwind css, WebSocket Api, Rest Api',
+            contents: [
+                `${t('company2.contents.1')}`,
+                `${t('company2.contents.2')}`,
+                `${t('company2.contents.3')}`,
+                `${t('company2.contents.4')}`,
+            ],
+            link: 'https://softwhere-uz-86ky.vercel.app/uz',
+        },
+        {
             id: 1,
             img: softwhereLogo,
             position: `React, React Native ${t('developer')}`,
             company: 'Softwhere · Full-time',
-            duration: 'Dec 2023 - Present',
+            duration: 'Dec 2023 - Fev 2025 · 1 yr 2 mos',
             location: 'Tashkent, Uzbekistan',
             type: `${t('company2.type')}`,
             task: `${t('company2.description')}`,
